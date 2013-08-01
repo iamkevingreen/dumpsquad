@@ -1,0 +1,1 @@
+Commogri is a social media platform for volunteering. Individuals, nonprofit organizations, and companies each have their own profile to showecase their positive impact.

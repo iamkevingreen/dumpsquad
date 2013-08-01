@@ -1,0 +1,59 @@
+- category: Management & Product Development
+  people:
+    - name: Sunil Madhu
+      photo: images/team/sunil_madhu.jpg
+      job: Co-Founder &amp; CEO
+      url: http://www.linkedin.com/in/sunilmadhu
+    - name: Johnny Ayers
+      photo: images/team/johnny_ayers.jpg
+      job: Co-Founder &amp; Director of&nbsp;Business Development
+      url: http://www.linkedin.com/in/johnayers1/
+    - name: Edward Romano
+      photo: images/team/edward_romano.jpg
+      job: Senior Software Engineer
+      url: http://www.linkedin.com/pub/edward-romano/25/231/8a4
+    - name: Giacomo Pallotti
+      photo: images/team/giacomo_pallotti.jpg
+      job: Senior Software Engineer
+      url: http://www.linkedin.com/in/giacomopallotti
+
+- category: Board Members
+  people:
+    - name: Dr. Sam Leinhardt
+      photo: images/team/sam_leinhardt.jpg
+      job: Chairman
+      url: http://www.linkedin.com/pub/sam-leinhardt/0/9b8/5ab
+    - name: Sunil Madhu
+      photo: images/team/sunil_madhu.jpg
+      job: President
+      url: http://www.linkedin.com/in/sunilmadhu
+    - name: Bradley Leinhardt
+      photo: images/team/bradley_leinhardt.jpg
+      job: Co-Founder &amp; Director
+      url: http://www.linkedin.com/pub/bradley-s-leinhardt/20/377/151
+    - name: Phillip Eytan
+      photo: images/team/phillip_eytan.jpg
+      job: Director
+      url: http://www.linkedin.com/pub/philip-eytan/6/2b4/a78
+    - name: Oscar Salazar
+      photo: images/team/oscar_salazar.jpg
+      job: Director
+      url: http://www.linkedin.com/in/osalazar
+
+- category: Advisors
+  people:
+    - name: Gleb Chuvpilo
+      photo: images/team/gleb_chuvpilo.jpg
+      url: http://www.linkedin.com/in/chuvpilo
+    - name: Bruce Maggs
+      photo: images/team/bruce_maggs.jpg
+      url: http://www.linkedin.com/pub/bruce-maggs/b/a57/992
+    - name: Marcy Simon
+      photo: images/team/marcy_simon.jpg
+      url: http://www.linkedin.com/in/marcysimon
+    - name: Vladimir Efros
+      photo: images/team/vladimir_efros.jpg
+      url: http://www.linkedin.com/pub/vladimir-efros/0/236/a9b
+    - name: Thor Hauge
+      photo: images/team/thor_hauge.jpg
+      url: http://www.linkedin.com/in/thorhauge

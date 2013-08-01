@@ -1,0 +1,77 @@
+- id: Definition
+  title: Definition
+  content: src/content/definition.md
+  bottomBanner:
+  - text: Who Needs Commogri?
+    image: images/Slide_02.jpg
+  icons:
+  - name: Help
+    url: http://help.comput
+    font: 000ps;
+  - name: Discover
+    url: http://help.comput
+    font: 000ps;
+  - name: Inspire
+    url: http://help.comput
+    font: 000ps;
+
+- id: WhyCommogri
+  title: Why Commogri?
+  content: src/content/whycommogri.md
+  bottomBanner:
+  - text: How Commogri Works
+    image: images/Slide_03.jpg
+  icons:
+  - name: Nonprofits
+    url: http://help.comput
+    font: 000ps;
+  - name: YOU
+    url: http://help.comput
+    font: 000ps;
+  - name: Companies
+    url: http://help.comput
+    font: 000ps;
+
+- id: Share
+  title: Share Your Story
+  content: src/content/share.md
+  bottomBanner:
+  - text: Added Features
+    image: images/Slide_04.jpg
+
+- id: Network
+  title: An Expansive Volunteer Network
+  content: src/content/network.md
+  dashboard:
+    - title: Dashboard
+      photo: images/team/sunil_madhu.jpg
+      text: Individuals, nonprofits, and companies each have a dashboard to show a history of their impact.
+      float: left
+    - title: The Big Picture
+      photo: images/team/johnny_ayers.jpg
+      text: You have a map showing where you've helped in your local community or abroad. Nonprofit organization and companies have a map on their profile showing where each of their employees and volunteers have participated.
+      float: right
+    - title: Proxy Program
+      photo: images/team/edward_romano.jpg
+      text: Each year, Commogri's profits will be distributed to active members of the site to reward them for their efforts. The money can be used to fund future volunteer trips or to make a donation to their favorite nonprofit.
+      float: left
+
+- id: Team
+  title: Team
+  content: src/content/security.md
+
+- id: News
+  title: In The News
+  logos:
+  - name: Bloomberg
+    url: #
+    image: images/logo-bloomberg.png
+  - name: CNBC
+    url: #
+    image: images/logo-cnbc.png
+  - name: The Wall Street Journal
+    url: #
+    image: images/logo-wsj.png
+  - name: Yahoo! Finance
+    url: #
+    image: images/logo-yahoo-finance.png

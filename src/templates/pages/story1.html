@@ -1,0 +1,55 @@
+---
+title: Story 1
+---
+
+<body class="kevin">
+    <div id="bg1" data-0="background-position:0px 0px; opacity:1;" data-1000="background-position:0px -1000px; opacity:0;"></div>
+    <div id="bg2" data-1000="background-position:0px 0px; opacity: 0;" data-1800="background-position:-50px -10px; opacity:1;" data-2400="opacity:0;"></div>
+
+
+
+
+
+    <div id="transform" data-1200="transform:translateY(-1000px); opacity:0;" data-1800="transform:translatey(300px);opacity:.7;" data-1600="" data-2400="opacity:0;">
+        <div class="flyingGuy">poop</div>
+    </div>
+    <div id="bg3" data-2400="background-position:0px 0px; opacity:0" data-2500="opacity: 1;" data-3200="opacity: 1;" data-3400="opacity: 0; background-position: -3000px 0px;"></div>
+
+    <div id="time" data-2400="background-position:0px 0px; opacity:0;" data-2600="background-position: 0px 0px; opacity:1;" data-2601="background-position: 0px -150px;" data-2800="background-position: 0px -150px;" data-2801="background-position: 0px -270px;" data-3200="opacity:0;"></div>
+
+    <div id="bg4" data-3400="background-position:0px 0px; opacity:0" data-3500="background-position: 0px 0px; opacity: 1;" data-4800="background-position: 0px -100px; opacity: 0;"></div>
+
+    <div id="bg5" data-4600="opacity: 0" data-5000="opacity: 1;" data-6400="opacity: 1;" data-6800="opacity: 0"></div>
+    <div id="bg6" data-start="background-position:0px 1000px; opacity: 0;" data-5600="opactiy: 0;" data-6000="background-position: 0px 0px; opacity: 1;" data-7000="opacity:0"></div>
+
+
+    <div id="plane" data-3400="transform: translateX(-1000px); opacity: 0" data-3600="opacity:1;" data-4800="transform: translateX(1000px);" data-5000="transform: translateX(400px);" data-7000="opacity:0"></div>
+
+    <div id="sunny" data-4900="transform: translateX(2000px); opacity: 0" data-5200="transform: translateX(700px); opacity:1;" data-6000="transform: translateX(400px);" data-7000="opacity:0"></div>
+
+    <div id="bg7" data-6800="background-position:0px 0px; opacity: 0;" data-7500="background-position: 0px 0px; opacity: 1;" data-8000="transform: background-size: 130%;"></div>
+
+
+    <div id="end" data-30000="background-position:0px 0px; opacity:0;"></div>
+
+
+    <div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
+
+        <!-- build:js(src/) scripts/init.js -->
+        <script src="scripts/skrollr.js"></script>
+        <script src="scripts/init.js"></script>
+        <!-- endbuild -->
+
+
+
+    <script type="text/javascript">
+    var s = skrollr.init({
+        edgeStrategy: 'set',
+        easing: {
+            WTF: Math.random,
+            inverted: function(p) {
+                return 1-p;
+            }
+        }
+    });
+    </script>
