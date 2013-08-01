@@ -100,9 +100,7 @@ module.exports = function(grunt) {
 			dist: {
 				files: {
 					'.tmp/': [
-						'src/templates/pages/*.html',
-						'!src/templates/pages/card_*.html'
-						]
+						'src/templates/pages/*.html']
 				}
 			}
 		},

@@ -13,7 +13,7 @@
     <!--[if lte IE 8]>
       <link rel="stylesheet" href="styles/ie.css" />
     <![endif]-->
-    <script src="scripts/cardspark.js"></script>
+    <script src="scripts/sparkles.js"></script>
   </head>
   
   <body>
@@ -49,6 +49,30 @@
             }
           });
       </script>
+      <script src="scripts/init.js"></script>
+      <script type="text/javascript">
+        var s = skrollr.init({
+            edgeStrategy: 'set',
+            easing: {
+              WTF: Math.random,
+              inverted: function(p) {
+                return 1 - p;
+              }
+            }
+          });
+      </script>
     </body>
+    <script src="scripts/init.js"></script>
+    <script type="text/javascript">
+      var s = skrollr.init({
+          edgeStrategy: 'set',
+          easing: {
+            WTF: Math.random,
+            inverted: function(p) {
+              return 1 - p;
+            }
+          }
+        });
+    </script>
 
 </html>
