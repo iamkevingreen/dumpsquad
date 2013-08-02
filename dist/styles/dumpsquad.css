@@ -220,6 +220,9 @@ body {
   background: linear-gradient(top, #eeeeee, #cccccc 100%);
   background-attachment: fixed;
 }
+body.jan {
+  background: #bcdeeb;
+}
 ol,
 ul {
   list-style: none;
@@ -280,6 +283,9 @@ h4 {
 }
 .skrollr-desktop #scrollbar {
   display: none;
+}
+body.kevin {
+  width: 1920px;
 }
 .kevin {
   background: white;
@@ -356,6 +362,33 @@ h4 {
   background: url(../img/commute/crash_landing.jpg) no-repeat 0 0;
   background-size: cover;
 }
+.cloud_1 {
+  background: url(../img/jump/clouds_cliff-forever-1.png) no-repeat;
+  width: 1920px;
+  background-size: cover;
+  height: 1000px;
+  right: 0px;
+  left: 0px;
+  text-indent: -9999em;
+}
+.cloud_2 {
+  background: url(../img/jump/clouds_cliff-forever-2.png) no-repeat;
+  width: 1920px;
+  background-size: cover;
+  height: 1000px;
+  right: 0px;
+  left: 0px;
+  text-indent: -9999em;
+}
+.stars {
+  background: url(../img/jump/stars.png) no-repeat;
+  width: 1920px;
+  background-size: cover;
+  height: 1000px;
+  right: 0px;
+  left: 0px;
+  text-indent: -9999em;
+}
 #sunny {
   background: url(../img/commute/sun.png) no-repeat;
   width: 200px;
@@ -384,6 +417,15 @@ h4 {
   -o-animation: flyingplane 0.5s steps(2) infinite;
   animation: flyingplane 0.5s steps(2) infinite;
 }
+.bird_man {
+  background: url(../img/jump/bird_man.png) no-repeat;
+  width: 320px;
+  height: 230px;
+  overflow: hidden;
+  text-indent: -9999px;
+  background-size: 250px;
+  background-position: 0px 0px;
+}
 #time {
   background: url(../img/commute/time_man.png);
   width: 200px;
@@ -405,6 +447,85 @@ h4 {
   -ms-animation: flying 0.5s steps(2) infinite;
   -o-animation: flying 0.5s steps(2) infinite;
   animation: flying 0.5s steps(2) infinite;
+}
+.running {
+  background: url(../img/jump/running_man.png) no-repeat;
+  width: 400px;
+  height: 146px;
+  background-size: 400px;
+  text-indent: -999em;
+  background-position: 0px 0px;
+  -webkit-animation: running 0.5s steps(2) infinite;
+  -moz-animation: running 0.5s steps(2) infinite;
+  -ms-animation: running 0.5s steps(2) infinite;
+  -o-animation: running 0.5s steps(2) infinite;
+  animation: running 0.5s steps(2) infinite;
+}
+.falling_man {
+  background: url(../img/jump/falling_man.png) no-repeat;
+  width: 200px;
+  height: 400px;
+  background-size: 400px;
+  text-indent: -999em;
+  background-position: 0px 0px;
+  -webkit-animation: falling 0.5s steps(2) infinite;
+  -moz-animation: falling 0.5s steps(2) infinite;
+  -ms-animation: falling 0.5s steps(2) infinite;
+  -o-animation: falling 0.5s steps(2) infinite;
+  animation: falling 0.5s steps(2) infinite;
+}
+.falling_man_no {
+  background: url(../img/jump/guy_fall_no.png) no-repeat;
+  width: 200px;
+  height: 400px;
+  background-size: 207px;
+  text-indent: -999em;
+  background-position: 0px 0px;
+}
+.cape_away {
+  background: url(../img/jump/cape_solo.png) no-repeat;
+  width: 200px;
+  height: 400px;
+  background-size: 400px;
+  text-indent: -999em;
+  background-position: 0px 0px;
+  -webkit-animation: cape 0.5s steps(2) infinite;
+  -moz-animation: cape 0.5s steps(2) infinite;
+  -ms-animation: cape 0.5s steps(2) infinite;
+  -o-animation: cape 0.5s steps(2) infinite;
+  animation: cape 0.5s steps(2) infinite;
+}
+.purple {
+  background: url(../img/jump/purple_transform.png) no-repeat;
+  width: 226px;
+  height: 500px;
+  background-size: 1200px;
+  text-indent: -999em;
+  background-position: 0px 0px;
+}
+@-webkit-keyframes cape {
+  from {
+    background-position: 0px 0px;
+  }
+  to {
+    background-position: -400px 0px;
+  }
+}
+@-webkit-keyframes falling {
+  from {
+    background-position: 0px 0px;
+  }
+  to {
+    background-position: -400px 0px;
+  }
+}
+@-webkit-keyframes running {
+  from {
+    background-position: 0px 0px;
+  }
+  to {
+    background-position: 0px -264px;
+  }
 }
 @-webkit-keyframes rotation {
   from {
@@ -446,9 +567,58 @@ h4 {
     background-position: 0px -410px;
   }
 }
-#bg3 {
-  z-index: 48;
-  background-image: url(images/bubbles3.png);
+.jan #bg1 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/jump/title.png) no-repeat 0 0;
+  background-size: cover;
+}
+.jan #bg3 {
+  z-index: 110;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/jump/cliff.png) no-repeat 0 0;
+  background-position: 0px 290px;
+}
+.jan #bg4 {
+  z-index: 40;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  height: 3000px;
+  background: url(../img/jump/cliff_1.png) no-repeat 0 0;
+  background-size: 100%;
+}
+.jan #bg5 {
+  z-index: 40;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  height: 3000px;
+  background: url(../img/jump/clif_2.png) no-repeat 0 0;
+  background-size: 100%;
+}
+.jan #bg6 {
+  z-index: 40;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  height: 3000px;
+  background-size: 100%;
+}
+.jan #bg7 {
+  z-index: 40;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  height: 3000px;
+  background: url(../img/jump/end.png) no-repeat 0 0;
+  background-size: 100%;
 }
 #intro {
   width: 80%;
@@ -476,6 +646,54 @@ h4 {
   width: 70%;
   left: 50%;
   top: 20%;
+  margin-left: -29%;
+  text-align: center;
+  font-size: 150%;
+}
+#clouds {
+  width: 100%;
+  left: 0%;
+  top: 0%;
+  text-align: center;
+  font-size: 150%;
+}
+.cliff_wall {
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  text-align: center;
+  font-size: 150%;
+}
+.cliff_walled {
+  background: url(../img/jump/cliff_wall.png) no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  text-indent: -999em;
+  background-position: 0px 0px;
+}
+#transform_run {
+  width: 70%;
+  left: 50%;
+  top: 36%;
+  margin-left: -29%;
+  text-align: center;
+  z-index: 120 !important;
+  font-size: 150%;
+}
+#transform_fall {
+  width: 70%;
+  left: 50%;
+  top: 36%;
+  margin-left: -29%;
+  text-align: center;
+  font-size: 150%;
+}
+#transform_solo {
+  width: 70%;
+  left: 50%;
+  top: 36%;
   margin-left: -29%;
   text-align: center;
   font-size: 150%;
