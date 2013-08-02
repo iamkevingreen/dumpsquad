@@ -5384,3 +5384,213 @@ body {
   -o-animation-duration: 0.75s;
   animation-duration: 0.75s;
 }
+.angela {
+  background: white;
+}
+.angela #bg1 {
+  z-index: 4;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Title.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg2 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene1.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg3 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene2.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg4 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene3.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg5 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/treefall.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg6 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene5.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg7 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene6.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg8 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene7.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg9 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene8.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg10 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene9.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg101 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene10.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg102 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene10.1a.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg103 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene10.4a.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg104 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene10.6a.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg105 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene10.8a.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg106 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene10.10a.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg107 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene10.12a.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg108 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene10.7a.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg109 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene10.8a.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg1010 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene10.9a.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg1011 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene10.10a.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg1012 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene10.11a.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+.angela #bg1013 {
+  z-index: 49;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/mission/Scene12.jpg) no-repeat 0 0;
+  background-size: cover;
+}
