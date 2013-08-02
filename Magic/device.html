@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link type="text/css" rel="stylesheet" href="css/styles.css" />
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+// Use the following variable to specify 
+// the number of images
+var NumberOfImages = 8
+
+var img = new Array(NumberOfImages)
+
+// Use the following variables to specify the image names:
+img[0] = "1.gif"
+img[1] = "2.gif"
+img[2] = "3.gif"
+img[3] = "4.gif"
+img[4] = "5.gif"
+img[5] = "6.gif"
+img[6] = "7.gif"
+img[7] = "8.gif"
+
+var imgNumber = 0
+
+function NextImage()
+{
+    imgNumber++
+    if (imgNumber == NumberOfImages)
+        imgNumber = 0
+    document.images["static"].src = img[imgNumber]
+}
+
+function PreviousImage()
+{
+    imgNumber--
+    if (imgNumber < 0)
+        imgNumber = NumberOfImages - 1
+    document.images["static"].src = img[imgNumber]
+}
+
+//-->
+</SCRIPT>
+</head>
+<body>
+	<div id="DeviceHolder">
+		<img src="img/justdevice.png">
+	</div>
+	<div id="ShowHolder">
+		<img src="img/static/7.gif" name="static" width="692px"/>
+	</div>
+	<a href="javascript:PreviousImage()">Previous</a>
+	<a href="javascript:NextImage()">Next</a>
+</body>
+</html>
