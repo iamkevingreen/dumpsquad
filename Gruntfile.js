@@ -105,7 +105,10 @@ module.exports = function(grunt) {
 			}
 		},
 		useminPrepare: {
-			html: 'src/templates/layouts/*.html'
+			html: 'src/templates/layouts/*.html',
+			options: {
+				dest: 'dist'
+			}
 		},
 		usemin: {
 			html: ['.tmp/*.html'],
