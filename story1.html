@@ -1,0 +1,72 @@
+<!doctype html>
+<html class="">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Story 1</title>
+    <meta name="description" content="Never Ending Story">
+    <meta name="keywords" content="Never Ending Story">
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="styles/dumpsquad.css">
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" href="styles/ie.css" />
+    <![endif]-->
+    <script src="scripts/sparkles.js"></script>
+  </head>
+  
+  <body class="kevin">
+    <div id="bg1" data-0="background-position:0px 0px; opacity:1;" data-1000="background-position:0px -1000px; opacity:0;"></div>
+    <div id="bg2" data-1000="background-position:0px 0px; opacity: 0;" data-1800="background-position:-50px -10px; opacity:1;" data-2400="opacity:0;"></div>
+    <div id="transform" data-1200="transform:translateY(-1000px); opacity:0;" data-1800="transform:translatey(300px);opacity:.7;" data-1600="" data-2400="opacity:0;">
+      <div class="flyingGuy">poop</div>
+    </div>
+    <div id="bg3" data-2400="background-position:0px 0px; opacity:0" data-2500="opacity: 1;" data-3200="opacity: 1;" data-3400="opacity: 0; background-position: -3000px 0px;"></div>
+    <div id="time" data-2400="background-position:0px 0px; opacity:0;" data-2600="background-position: 0px 0px; opacity:1;" data-2601="background-position: 0px -150px;" data-2800="background-position: 0px -150px;" data-2801="background-position: 0px -270px;" data-3200="opacity:0;"></div>
+    <div id="bg4" data-3400="background-position:0px 0px; opacity:0" data-3500="background-position: 0px 0px; opacity: 1;" data-4800="background-position: 0px -3000px; opacity: 0;"></div>
+    <div id="bg5" data-4600="opacity: 0" data-5000="opacity: 1;" data-6400="opacity: 1;" data-6800="opacity: 0"></div>
+    <div id="bg6" data-start="background-position:0px 1000px; opacity: 0;" data-5600="opactiy: 0;" data-6000="background-position: 0px 0px; opacity: 1;" data-7000="background-position: 0px -300px; opacity:0"></div>
+    <div id="plane" data-3400="transform: translate(-1000px, 300px); opacity: 0" data-3600="opacity:1;" data-4800="transform: translate(1000px, 300px);" data-5000="transform: translate(400px, 300px);" data-7000="opacity:0"></div>
+    <div id="sunny" data-4900="transform: translateX(2000px); opacity: 0" data-5200="transform: translateX(700px); opacity:1;" data-6000="transform: translateX(400px);" data-7000="opacity:0"></div>
+    <div id="bg7" data-6800="background-position:0px 0px; opacity: 0;" data-7500="background-position: 0px 0px; opacity: 1;" data-8000="transform: background-size: 130%; background-position: 0px -400px;" data-8200="opacity: 0;"></div>
+    <div id="bg8" data-8200="background-position:0px 0px; opacity: 0;" data-8500="background-position: 0px 0px; opacity: 1;" data-9000="transform: background-position: 30px 0px;" data-12800="opacity: 0;"></div>
+    <div class="wave1" data-8200="opacity:0; transform: translate(-400px, -2000px);" data-8500="opacity: 1;" data-12500=" transform: translate(-1000px, -2000px);" data-12800="opacity: 0;"></div>
+    <div class="wave2" data-8200="opacity:0; transform: translate(-1200px, -780px);" data-8500="opacity: 1;" data-12500=" transform: translate(-200px, -780px);" data-12800="opacity: 0;"></div>
+    <div class="drinking" data-8200="opacity:0; transform: translate(1200px, 100px);
+    background-size:700px;" data-8490="display:block;" data-8500="opacity: 1;" data-12500=" transform: translate(-200px, -100px);" data-12800="opacity:0; background-size: 190px;" data-13000="transform: translate(700px, 100px);" data-13001="transform: translate(680px, 680px);" data-14000="opacity:1" data-18800="transform: translate(1000px, 300px);" data-20800="opacity:0;" data-24000="display:none;"></div>
+    <div id="bg9" data-11800="background-position:0px 0px; opacity: 0;" data-13000="background-position: 0px 0px; opacity: 1;" data-17000="background-position: 0px -400px;" data-20800="opacity: 0;"></div>
+    <div id="bg10" data-21000="background-position:0px 0px; opacity: 0;" data-22000="background-position: 0px 0px; opacity: 1;" data-25000="background-position: 0px -400px;" data-28800="opacity: 0;"></div>
+    <div id="bg11" data-28800="background-position:0px 2000px; opacity: 0;" data-32000="background-position: 0px 0px; opacity: 1;" data-35000="background-position: 0px -400px;">
+      <div class="button"><a href="story_4.html">IT'S IN THE COMPUTER</a>
+      </div>
+    </div>
+    <div id="end" data-50000="background-position:0px 0px; opacity:0;"></div>
+    <div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
+    <script src="scripts/init.js"></script>
+    <script type="text/javascript">
+      var s = skrollr.init({
+          edgeStrategy: 'set',
+          easing: {
+            WTF: Math.random,
+            inverted: function(p) {
+              return 1 - p;
+            }
+          }
+        });
+    </script>
+  </body>
+  <script src="scripts/init.js"></script>
+  <script type="text/javascript">
+    var s = skrollr.init({
+        edgeStrategy: 'set',
+        easing: {
+          WTF: Math.random,
+          inverted: function(p) {
+            return 1 - p;
+          }
+        }
+      });
+  </script>
+
+</html>

@@ -1,0 +1,152 @@
+#iPhone {
+  width: 312px;
+  height: 644px;
+  background: url(../img/iphone5-ie.png) no-repeat;
+  background-size: 100%;
+}
+#logoImg {
+  display: block;
+  margin-top: 10px;
+  width: 180px;
+  height: 80px;
+  background: transparent url(../img/logo_card-ie.png) top left no-repeat;
+  background-size: 100%;
+  text-indent: -9999em;
+}
+.pageCount a#nextPage {
+  display: inline-block;
+  padding-left: 8px;
+  background: url(../img/arrow_gray-ie.png);
+  background-position-x: 100%;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  text-indent: -9999em;
+}
+.pageCount a#prevPage {
+  display: inline-block;
+  padding-right: 8px;
+  background: url(../img/left_arrow_dim-ie.png);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  text-indent: -9999em;
+}
+.pageCount a#nextPage:hover {
+  padding-left: 8px;
+  background: url(../img/green_arrow-ie.png);
+  background-position-x: 100%;
+  background-size: 15px;
+  background-repeat: no-repeat;
+}
+#iphoneSocial #yl.socialcons {
+  border: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background: url(../img/yl_icon-ie.png) no-repeat;
+  background-color: #C53B2E;
+  background-position: 50% 50%;
+  background-size: 28%;
+}
+span.passTool {
+  background: url(../img/tooltip-q-ie.png) no-repeat;
+  background-size: 17px;
+  background-position: 0px 0px;
+  height: 18px;
+  width: 18px;
+  text-indent: -9999em;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 24px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+span.passTool:hover {
+  background-position: 0px -27px;
+}
+.tooltipPass {
+  position: absolute;
+  background: #000;
+  z-index: 20;
+  color: #fff;
+  top: -50px;
+  left: 1px;
+  border-radius: 10px;
+  padding: 6px 10px;
+  display: none;
+  font-size: 13px;
+  width: 170px;
+}
+.linkData li #leads {
+  margin-left: 30px;
+  padding: 26px 0px 0px 20px;
+  background-image: url(../img/left_arrow_dark.png);
+  background-position: left bottom;
+  background-position-y: 27px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+}
+.linkData li #leads:hover {
+  background-image: url(../img/left_arrow_green.png), none;
+  background-position-y: 27px;
+  background-size: 15px;
+}
+#employeeList .detailsArrow a {
+  padding-right: 22px;
+  background: url(../img/arrow_gray-ie.png) center right no-repeat;
+  background-position-y: 2px;
+  background-size: 15px;
+}
+#employeeList .detailsArrow a:hover {
+  background: url(../img/green_arrow-ie.png) center right no-repeat;
+  background-position-y: 2px;
+  background-size: 15px;
+}
+span.employeeArrow {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 5px 0 10px;
+  background: url(../img/arrow-employee-list-ie.png) no-repeat;
+  background-size: 100%;
+  text-indent: -9999em;
+}
+span.socialTextLabel {
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+.checkbox.treeItems .infoContent input {
+  margin-top: 4px;
+  height: 16px;
+}
+#dashStats a {
+  padding-right: 22px;
+  background: url(../img/arrow_gray-ie.png) center right no-repeat;
+  background-position-y: 1px;
+  background-size: 15px;
+  color: #808080;
+  font-size: 12px;
+  font-family: 'titillium', helvetica, arial;
+}
+#dashStats a:hover {
+  background: url(../img/green_arrow-ie.png) center right no-repeat;
+  background-position-y: 1px;
+  background-size: 15px;
+  color: #7BC026;
+}
+#dashTables li.center_ie {
+  padding: 0 4%;
+  width: 32%;
+}
+#dashStats li.center_ie {
+  width: 39%;
+  border-right: 1px solid #E6E7E8;
+  border-left: 1px solid #E6E7E8;
+}
+#dashTables th {
+  text-align: left;
+}
+.infoContent input[type="checkbox"],
+.infoContent input[type="radio"] {
+  padding: 0px !important;
+}
